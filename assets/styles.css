@@ -1,0 +1,164 @@
+/* Fondo general */
+body {
+    font-family: 'Poppins', 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    color: #2c3e50;
+}
+
+/* Encabezado principal */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #2a2a40   ;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(246, 244, 244, 0.1)
+}
+
+/* Logo */
+.dash-logo {
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+    margin-right: 15px;
+    object-fit: contain;
+    border-radius: 8px
+}
+
+/* Color de títulos */
+h1, h2, h3, h4, .card-header {
+    color: #000005;
+    font-weight: 600;
+}
+
+/* Tarjetas */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px     rgba(248, 246, 246, 0.577);
+    padding: 10px;
+    color: #121213;
+}   
+
+/* Inputs, dropdowns */
+input[type="text"], .Select-control, .form-control {
+    background-color: #292951 !important;
+    color: #8f8d8d !important;
+    border-color: #4f93ce !important;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #2962ff;
+    border-color: #2962ff;
+}
+
+.btn-primary:hover {
+    background-color: #0039cb;
+    border-color: #0039cb;
+}
+
+/* Texto destacado */
+.text-primary {
+    color: #0e0e0f  !important;
+}
+
+.log-box {
+    background-color: #ffffff !important;
+    color: #0e0e0f  !important;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    resize: vertical;
+}
+
+.custom-placeholder::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+
+.main-title {
+    font-size: 32px;
+    margin: 0;
+    color: #f8fafc;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin: 0;
+    color: #777777;
+}
+
+
+.logo-title-group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Estilo del valor seleccionado en dropdown */
+.Select-value {
+    color: #ffffff !important;  /* texto blanco */
+    background-color: #292951 !important;  /* fondo oscuro */
+}
+
+/* Estilo de las opciones desplegadas */
+.Select-menu-outer {
+    background-color: #292951 !important;
+    color: #ffffff !important;
+}
+
+/* Opciones individuales del dropdown */
+.Select-option {    
+    background-color: #292951 !important;
+    color: #ffffff !important;
+}
+
+.Select-option.is-focused {
+    background-color: #41416a !important;
+    color: #ffffff !important;
+}
+
+/* Valor seleccionado - visible en el campo del dropdown */
+.Select--single > .Select-control .Select-value {
+    color: #ffffff !important;  /* blanco o cambia a otro si prefieres */
+    background-color: #292951 !important;  /* mismo fondo que el control */
+    font-weight: bold;
+}
+
+/* Forzar visibilidad del valor seleccionado en dropdown */
+.Select-control .Select-value-label {
+    color: #ffffff !important;      /* Texto blanco */
+    font-weight: bold !important;   /* Negrita para mayor visibilidad */
+}
+
+/* Alternativa si aún no se ve */
+.Select--single > .Select-control .Select-value {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* Texto general en el dropdown */
+.Select-control,
+.Select-menu-outer,
+.Select-option {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    padding: 6px 12px !important;
+    color: #ffffff !important;
+}
+
+/* Ítem seleccionado */
+.Select-value {
+    font-size: 14px !important;
+    color: #ffffff !important;
+}
+
+/* Ítem al pasar el mouse o seleccionado */
+.Select-option.is-focused,
+.Select-option.is-selected {
+    background-color: #4f93ce !important;
+    color: #ffffff !important;
+}
